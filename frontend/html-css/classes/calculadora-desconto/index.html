@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <script>
+        function calcularDesconto() {
+            let valorProduto;
+            valorProduto = document.getElementById("valorProduto").value;
+
+            let descontoProduto;
+            descontoProduto = document.getElementById("descontoProduto").value;
+
+            let valorDesconto = (valorProduto * descontoProduto) / 100;
+            let valorFinal = valorProduto - valorDesconto;
+
+            document.getElementById("resultado").textContent = "O preço final é de R$" + valorFinal;
+        }
+    </script>
+</head>
+
+<body>
+    <label for="valorProduto">Preço do produto(R$)</label>
+    <input type="number" name="valorProduto" id="valorProduto">
+
+    <br>
+
+    <label for="descontoProduto">Desconto do produto(%)</label>
+    <input type="number" name="descontoProduto" id="descontoProduto">
+
+    <br>
+
+    <button onclick="calcularDesconto()">
+        Calcular
+    </button>
+
+    <p id="resultado">Preço a pagar</p>
+</body>
+
+</html>

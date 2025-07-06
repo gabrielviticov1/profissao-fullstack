@@ -1,0 +1,181 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body header section {
+ padding: 10px;
+ text-align: center;
+}
+
+
+body header section h1 {
+ font-size: 42px;
+ color: white;
+}
+
+.mediaSocial {
+ list-style: none;
+}
+
+.mediaSocial li {
+ display: inline-block;
+}
+
+.mediaSocial a {
+ font-size: 14px;
+ color: brown;
+}
+
+header section p {
+ font-family: 'Ubuntu';
+}
+
+body header section nav ul li a {
+ text-decoration: none;
+}
+.mediaSocial a:hover {
+ background-color: cadetblue;
+}
+
+body header section p {
+ font-style: italic;
+}
+
+h1, h2 {
+ font-family: 'Montserrat';
+ font-optical-sizing: auto;
+ text-align: center;
+ color: white;
+ margin: 10px;
+}
+
+body {
+ background-color: rgb(243, 152, 152);
+}
+
+main section p {
+ margin: 1rem 0;
+ font-family: 'Ubuntu';
+ text-justify: inter-word;
+}
+
+main section p:first-of-type {
+ text-indent: 1.5rem;
+}
+
+main section a {
+ text-decoration: none;
+ font-style: italic;
+ color: brown;
+}
+
+main section a:hover {
+ background-color: cadetblue;
+}
+
+main section {
+ border: 2px solid black;
+ border-radius: 4px;
+ margin: 10px 5px 5px 5px;
+}
+
+.field01, .field02, .field03, .field04, .field05 {
+ display: flex;
+ padding: 10px;
+}
+
+.btn-4 {
+  background: #34495e;
+  color: #fff;
+}
+
+.btn-4:hover {
+  background: #2c3e50;
+}
+
+.btn-4:active {
+  background: #2c3e50;
+  top: 2px;
+}
+
+.btn-4:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+/* Icons */
+
+.btn {
+  border: none;
+  font-family: 'Lato';
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* Icon separator */
+.btn-sep {
+  padding: 25px 60px 25px 120px;
+}
+
+.btn-sep:before {
+  background: rgba(0,0,0,0.15);
+}
+
+
+.icon-cart:before {
+  content: "\f07a";
+}
+
+.icon-heart:before {
+  content: "\f55a";
+}
+
+.icon-info:before {
+  content: "\f05a";
+}
+
+.icon-send:before {
+  content: "\f1d8";
+}
+

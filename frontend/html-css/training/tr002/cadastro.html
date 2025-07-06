@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles/style.css">
+ <link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+  rel="stylesheet">
+  <script src="js/script.js"></script>
+ <title>Cadastramento</title>
+</head>
+
+<body>
+ <header>
+  <section>
+   <h1>Lorem lateus</h1>
+   <nav>
+    <ul class="mediaSocial">
+     <li><a href="#">Twitter</a></li>
+     <li><a href="#">Facebook</a></li>
+     <li><a href="#">Discord</a></li>
+    </ul>
+   </nav>
+   <p>Lorem ipsum dolor sit amet</p>
+  </section>
+ </header>
+ <main>
+  <section class="field01">
+   <label for="firstName">Primeiro nome</label>
+   <input type="text" name="firstName" id="firstName">
+  </section>
+  <section class="field02">
+   <label for="lastName">Sobrenome</label>
+   <input type="text" name="lastName" id="lastName">
+  </section>
+  <section class="field03">
+   <label for="email">Email</label>
+   <input type="email" name="email" id="email">
+  </section>
+  <section class="field04">
+   <label for="password">Senha</label>
+   <input type="password" name="password" id="password">
+  </section>
+  <section class="field05">
+   <label for="confirmPassword">Confirmar senha</label>
+   <input type="password" name="confirmPassword" id="confirmPassword">
+  </section>
+  <button class="btn btn-4 btn-sep icon-send" onclick="createNewAccount()">Criar conta</button>
+
+  <section class="results">
+   <p id="txtFirstName">Nome: <p>
+    <p id="txtLastName">Sobrenome: </p>
+    <p id="txtEmail">Email: </p>
+    <p id="txtPassword">Senha: </p>
+    <p id="txtConfirmPassword">A senha está confirmada? </p>
+  </section>
+ </main>
+
+</body>
+
+</html>

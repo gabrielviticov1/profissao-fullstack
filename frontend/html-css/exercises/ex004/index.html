@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header class="logotipe">
+        <h1>CalcIMC</h1>
+        <nav>
+            <ul class="socialMedia">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Discord</a></li>
+                <li><a href="#">WhatsApp</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Sua calculadora de IMC</h1>
+        <section>
+            <article>
+                <h2>O que é IMC</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur officia cumque modi
+                    recusandae
+                    inventore ratione quisquam delectus molestiae, error pariatur at beatae quam excepturi fuga illum
+                    architecto
+                    aliquid placeat odio, reiciendis quod omnis quibusdam et consequuntur. Rem, ipsum repellat. Tempora
+                    at,
+                    quod
+                    fugiat, deserunt fugit eius eaque maxime dolore delectus obcaecati mollitia nihil autem.</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2>Como é calculado?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit reiciendis commodi perferendis
+                    dolor dicta dignissimos, odit quibusdam voluptatum voluptas consectetur possimus temporibus
+                    blanditiis fuga saepe sed distinctio in asperiores nisi aliquid repellendus eos, recusandae quaerat!
+                    Accusamus vitae explicabo est possimus?</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2>Ferramenta de cálculo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur accusantium pariatur doloribus
+                    quia
+                    adipisci. Fugit ipsa, itaque reiciendis officiis quam quae ex quasi quaerat vitae voluptate pariatur
+                    impedit molestiae assumenda illum voluptates incidunt sit quibusdam aspernatur iste explicabo eum
+                    laboriosam?</p>
+            </article>
+        </section>
+
+        <section class="imcCalc">
+            <input type="number" placeholder="Enter height" id="height" name="height" required>
+            <input type="number" placeholder="Enter weight" id="weight" name="weight" required>
+            <button onclick="calc()">Calcular</button>
+            <p id="yourImc" name="yourImc">O resultado do IMC aparecerá aqui! </p>
+            <p id="category" name="category">Categoria do IMC</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; Gabriel Viticov - Todos os direitos reservados
+        </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.mediaSocial {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.rodape {
+    display: flex;
+    background-color: gray;
+    height: 10ch;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 320px;
+}
+
+p#rodape {
+    align-items: center;
+    position: relative;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.mainContent {
+    text-align: center;
+    width: 100vw;
+    max-width: 100%;
+}
+
+section#welcomeContactMe {
+    background-color: rgb(221, 147, 147);
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#firstLastName, #emailPhoneNumber {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
